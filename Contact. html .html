@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+  header {
+            background-color: #333;
+            padding: 10px 0px;
+          width:100%;
+          position:fixed;
+          top:0;
+          left:0;
+          z-index:1000;
+          
+        }
+  
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            padding-bottom: 10px;
+          padding-top:30px;
+            border-bottom: 2px solid #eaeaea;
+        }
+
+        .contact-info {
+            margin: 20px 0;
+            padding: 20px;
+            line-height: 1.6;
+        }
+
+        .contact-info p {
+            margin-bottom: 15px;
+        }
+
+        .contact-info h2 {
+            color: #555;
+        }
+
+        .contact-info .address,
+        .contact-info .phone,
+        .contact-info .email {
+            margin-bottom: 20px;
+        }
+
+        .contact-info .icon {
+            margin-right: 10px;
+        }
+
+        .contact-form {
+            margin-top: 30px;
+        }
+
+        .contact-form form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .contact-form label {
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 16px;
+        }
+
+        .contact-form textarea {
+            resize: vertical;
+            min-height: 150px;
+        }
+
+        .contact-form button {
+            padding: 12px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 18px;
+        }
+
+        .contact-form button:hover {
+            background-color: #45a049;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                width: 100%;
+                padding: 10px;
+            }
+
+            .contact-info,
+            .contact-form {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+  
+  <header>
+    <div style="menu"align="left">
+  <a href="Home .html"><button>Back</button></a>
+  </header>
+
+<div class="container">
+    <h1>Contact Us</h1>
+
+    <div class="contact-info">
+        <h2>Our Office</h2>
+        <div class="address">
+            <p><strong>Address:</strong>Min Mag! P.O.Box 235,Min Papua New Giunea </p>
+        </div>
+        <div class="phone">
+            <p><strong>Phone:</strong> +675 2603605</p>
+        </div>
+        <div class="email">
+            <p><strong>Email:</strong> Jmin@MIN 235</p>
+        </div>
+    </div>
+
+    <div class="contact-form">
+        <h2>Send Us a Message</h2>
+        <form action="#" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
